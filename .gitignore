@@ -1,2 +1,14 @@
-*
-!.**/**
+# 1. Chặn toàn bộ tệp và thư mục ở cấp gốc
+/*
+
+# 2. Loại trừ thư mục SeamlessCoop
+!/SeamlessCoop/
+
+# 3. Đảm bảo mọi thứ bên trong SeamlessCoop đều được theo dõi
+!/SeamlessCoop/**
+
+# 4. Giữ lại chính .gitignore
+!.gitignore
+
+# 5. Các file cần thiết khác
+!nrsc_launcher.exe
