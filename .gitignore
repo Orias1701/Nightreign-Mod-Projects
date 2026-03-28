@@ -1,17 +1,17 @@
-# 1. Chặn toàn bộ tệp và thư mục ở cấp gốc
+# Block all game files
 /*
 
-# 2. Loại trừ thư mục SeamlessCoop
-!/SeamlessCoop/
+# Back up all game files that have the same names as the files in this folder
+!Replaces
 
-# 3. Đảm bảo mọi thứ bên trong SeamlessCoop đều được theo dõi
-!/SeamlessCoop/**
+# Additional files
+!SeamlessCoop
 
-# 4. Giữ lại chính .gitignore
 !.gitignore
 
-# 5. Các file cần thiết khác
 !nrsc_launcher.exe
 !dlllist.txt
 !winmm.dll
 !OnlineFix*
+
+!README.md
